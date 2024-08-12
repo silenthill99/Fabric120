@@ -1,6 +1,6 @@
-package fr.silenthill99.init;
+package fr.silenthill99.test_mod.init;
 
-import fr.silenthill99.Main;
+import fr.silenthill99.test_mod.Main;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -18,7 +18,11 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.RAW_RUBY);
+
                         entries.add(Items.DIAMOND);
+
+                        entries.add(ModBlocks.RUBY_BLOCK);
+
                     }).build());
 
     public static void registerModItemGroups() {

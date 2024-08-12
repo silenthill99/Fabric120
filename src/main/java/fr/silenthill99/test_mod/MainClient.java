@@ -1,4 +1,4 @@
-package fr.silenthill99;
+package fr.silenthill99.test_mod;
 
 import net.fabricmc.api.ClientModInitializer;
 

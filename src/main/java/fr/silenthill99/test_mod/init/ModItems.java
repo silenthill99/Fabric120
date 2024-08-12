@@ -1,6 +1,6 @@
-package fr.silenthill99.init;
+package fr.silenthill99.test_mod.init;
 
-import fr.silenthill99.Main;
+import fr.silenthill99.test_mod.Main;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;

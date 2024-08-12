@@ -1,4 +1,4 @@
-package fr.silenthill99.mixin;
+package fr.silenthill99.test_mod.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

@@ -1,7 +1,8 @@
-package fr.silenthill99;
+package fr.silenthill99.test_mod;
 
-import fr.silenthill99.init.ModItemGroups;
-import fr.silenthill99.init.ModItems;
+import fr.silenthill99.test_mod.init.ModBlocks;
+import fr.silenthill99.test_mod.init.ModItemGroups;
+import fr.silenthill99.test_mod.init.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -15,5 +16,6 @@ public class Main implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModItemGroups.registerModItemGroups();
+		ModBlocks.registerModBlocks();
 	}
 }

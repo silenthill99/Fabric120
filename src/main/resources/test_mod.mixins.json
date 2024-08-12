@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "fr.silenthill99.mixin",
+	"package": "fr.silenthill99.test_mod.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
 		"ExampleMixin"

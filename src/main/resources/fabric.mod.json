@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"fr.silenthill99.Main"
+          "fr.silenthill99.test_mod.Main"
 		],
 		"fabric-datagen": [
-			"fr.silenthill99.MainDataGenerator"
+          "fr.silenthill99.test_mod.MainDataGenerator"
 		]
 	},
 	"mixins": [
