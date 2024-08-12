@@ -1,5 +1,9 @@
-// 1.20.1	2024-08-12T14:39:27.3267507	Kaupen Fabric 1.20/Recipes
-5027ab6f9f26e269eca8e4bce744e770d0a396c6 data\test_mod\recipes\ruby.json
-7d0e1ee0114b12ec665953df4bc4ae9446925cd3 data\test_mod\advancements\recipes\misc\ruby.json
-24ce16ae643dd525dd9941a615c2de52c11fe300 data\test_mod\advancements\recipes\building_blocks\ruby_block.json
-55dfa82bcdf7da3ea975a0d7f61278dc48c0378e data\test_mod\recipes\ruby_block.json
+// 1.20.1	2024-08-12T22:25:56.3710164	Kaupen Fabric 1.20/Recipes
+be95a992115a49fae92632a8510efe74d666345b data\test_mod\recipes\ruby_from_ruby_block.json
+6db35fbdccbe4a6e2b0b793b478714d12ef68cab data\test_mod\advancements\recipes\misc\ruby_block_from_ruby.json
+d6548e2910f6f407e427f345dc50f44d00db57fe data\test_mod\advancements\recipes\misc\ruby_from_blasting_raw_ruby.json
+40c2d5d71a183962131a185d44ac9ab762c2b00b data\test_mod\advancements\recipes\misc\ruby_from_smelting_raw_ruby.json
+04c502dc731c35240bb0a7b87116afb7b176523c data\test_mod\recipes\ruby_block_from_ruby.json
+c0dcbe6460d644bf9f3e3ee5ee5fa2f586b8ca9d data\test_mod\advancements\recipes\building_blocks\ruby_from_ruby_block.json
+843f02f8a66edea5ecc82f50440df70156bfdc2a data\test_mod\recipes\ruby_from_smelting_raw_ruby.json
+5cc72cba3688e98b415e6d0be76f0dbe10ba0ed0 data\test_mod\recipes\ruby_from_blasting_raw_ruby.json
