@@ -13,5 +13,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
         addDrop(ModBlocks.RUBY_BLOCK);
+        addDrop(ModBlocks.RAW_RUBY_BLOCK);
     }
 }

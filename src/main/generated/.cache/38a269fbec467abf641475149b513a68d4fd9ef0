@@ -1,6 +1,9 @@
-// 1.20.1	2024-08-12T14:12:44.1938474	Kaupen Fabric 1.20/Model Definitions
+// 1.20.1	2024-08-12T14:39:27.3292982	Kaupen Fabric 1.20/Model Definitions
 76930426dfd213428b94234ac7fbd3e3d04c7bb0 assets\test_mod\blockstates\ruby_block.json
+9f6849eb34424fe2ce87f1a162a777d0a2af8fe5 assets\test_mod\models\block\raw_ruby_block.json
 abe371d2c2f8722937795f21fa545e00a64c4282 assets\test_mod\models\item\raw_ruby.json
+a84bec3683b04f571fb3417e8d487d075f2678e1 assets\test_mod\blockstates\raw_ruby_block.json
 fdd02b18b47c4c0a06bf73a253d54955e67174b4 assets\test_mod\models\block\ruby_block.json
+0b2da4435af77ad52d65d714dd016eb6bf1717cd assets\test_mod\models\item\raw_ruby_block.json
 7f111f3c278dad3a45edd09e609c296540e2ad86 assets\test_mod\models\item\ruby.json
 79e95e3b19dd448bd35340b35f4401502d82ba23 assets\test_mod\models\item\ruby_block.json

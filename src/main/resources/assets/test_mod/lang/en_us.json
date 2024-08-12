@@ -1,4 +1,6 @@
 {
+  "block.test_mod.raw_ruby_block": "Raw ruby block",
+  "block.test_mod.ruby_block": "Ruby block",
   "item.test_mod.raw_ruby": "Raw ruby",
   "item.test_mod.ruby": "Ruby",
   "itemgroup.ruby": "Ruby Tutorial Group"

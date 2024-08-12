@@ -22,6 +22,7 @@ public class ModItemGroups {
                         entries.add(Items.DIAMOND);
 
                         entries.add(ModBlocks.RUBY_BLOCK);
+                        entries.add(ModBlocks.RAW_RUBY_BLOCK);
 
                     }).build());
 
