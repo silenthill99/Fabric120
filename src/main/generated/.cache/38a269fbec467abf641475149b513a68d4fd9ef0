@@ -1,9 +1,21 @@
-// 1.20.1	2024-08-12T22:25:56.3750153	Kaupen Fabric 1.20/Model Definitions
+// 1.20.1	2024-08-13T15:44:15.1215684	Kaupen Fabric 1.20/Model Definitions
 76930426dfd213428b94234ac7fbd3e3d04c7bb0 assets\test_mod\blockstates\ruby_block.json
-9f6849eb34424fe2ce87f1a162a777d0a2af8fe5 assets\test_mod\models\block\raw_ruby_block.json
 abe371d2c2f8722937795f21fa545e00a64c4282 assets\test_mod\models\item\raw_ruby.json
+81dce1bc8a54728fcaf29592252a69831a4d9804 assets\test_mod\models\block\nether_ruby_ore.json
 a84bec3683b04f571fb3417e8d487d075f2678e1 assets\test_mod\blockstates\raw_ruby_block.json
-fdd02b18b47c4c0a06bf73a253d54955e67174b4 assets\test_mod\models\block\ruby_block.json
 0b2da4435af77ad52d65d714dd016eb6bf1717cd assets\test_mod\models\item\raw_ruby_block.json
+071e395e43cc06a445e8c4556b8abdb788d41c61 assets\test_mod\blockstates\end_stone_ruby_ore.json
+177112b2ed42b7c330fb766ae00ccc1bfefabbb8 assets\test_mod\models\block\end_stone_ruby_ore.json
+232f7e0d0ebe8feb4b7bbdc57f2ed3e0a25c24ac assets\test_mod\models\item\deepslate_ruby_ore.json
 7f111f3c278dad3a45edd09e609c296540e2ad86 assets\test_mod\models\item\ruby.json
+f314ea58cf900d4f2d9c58c4a503f39829a2debe assets\test_mod\models\item\end_stone_ruby_ore.json
+9f6849eb34424fe2ce87f1a162a777d0a2af8fe5 assets\test_mod\models\block\raw_ruby_block.json
+8be25e9bda5dff7c15521486c6d3648f3b04377a assets\test_mod\models\item\ruby_ore.json
+6d523f676195eb5e52d168fa11937881d49d0445 assets\test_mod\blockstates\ruby_ore.json
+c3843879031062b0e1b343063f96bfffae0594ca assets\test_mod\models\item\nether_ruby_ore.json
+e664c3e997f21afad862122a6f7c2a726d587b00 assets\test_mod\blockstates\deepslate_ruby_ore.json
+fdd02b18b47c4c0a06bf73a253d54955e67174b4 assets\test_mod\models\block\ruby_block.json
+eef009802f6c59ebbc996f593e1002b6405ac5b5 assets\test_mod\models\block\deepslate_ruby_ore.json
+9eca37cd1915982fdafbff7975f5a6651c0b2ede assets\test_mod\blockstates\nether_ruby_ore.json
+a4ff11733774ca25a7cf8a47c10da30eefb4ba22 assets\test_mod\models\block\ruby_ore.json
 79e95e3b19dd448bd35340b35f4401502d82ba23 assets\test_mod\models\item\ruby_block.json

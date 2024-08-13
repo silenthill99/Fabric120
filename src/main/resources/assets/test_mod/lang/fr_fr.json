@@ -1,6 +1,10 @@
 {
+  "block.test_mod.deepslate_ruby_ore": "Minerai de ruby des abîmes",
+  "block.test_mod.end_stone_ruby_ore": "Minerai de ruby de l'end",
+  "block.test_mod.nether_ruby_ore": "Minerai de ruby du nether",
   "block.test_mod.raw_ruby_block": "Bloc de ruby brut",
   "block.test_mod.ruby_block": "Bloc de ruby",
+  "block.test_mod.ruby_ore": "Minerai de ruby",
   "item.test_mod.raw_ruby": "Ruby brut",
   "item.test_mod.ruby": "Ruby",
   "itemgroup.ruby": "Ruby Tutorial Group"
