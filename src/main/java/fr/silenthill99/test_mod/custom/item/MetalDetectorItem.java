@@ -1,8 +1,8 @@
 package fr.silenthill99.test_mod.custom.item;
 
+import fr.silenthill99.test_mod.utils.ModTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.Blocks;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
@@ -31,7 +31,9 @@ public class MetalDetectorItem extends Item {
                 BlockState state = context.getWorld().getBlockState(posirionClicked.down(i));
 
                 if (isValuableBlock((state))) {
-                    outputValuableCoordinates(posirionClicked.down(i), player, state.getBlock());
+                    if (player != null) {
+                        outputValuableCoordinates(posirionClicked.down(i), player, state.getBlock());
+                    }
                     foundBlock = true;
                     break;
                 }
@@ -39,7 +41,9 @@ public class MetalDetectorItem extends Item {
             }
 
             if (!foundBlock) {
-                player.sendMessage(Text.literal("No Valuables Found !"));
+                if (player != null) {
+                    player.sendMessage(Text.literal("No Valuables Found !"));
+                }
             }
         }
         context.getStack().damage(1, context.getPlayer(), playerEntity -> playerEntity.sendToolBreakStatus(playerEntity.getActiveHand()));
@@ -52,7 +56,7 @@ public class MetalDetectorItem extends Item {
     }
 
     private boolean isValuableBlock(BlockState state) {
-        return state.isOf(Blocks.IRON_ORE) || state.isOf(Blocks.DIAMOND_ORE);
+        return state.isIn(ModTags.ModBlockTags.METAL_DETECTOR_DETECTABLE_BLOCKS);
     }
 
     @Override
