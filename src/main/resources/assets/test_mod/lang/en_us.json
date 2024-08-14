@@ -11,5 +11,6 @@
   "item.test_mod.raw_ruby": "Raw ruby",
   "item.test_mod.ruby": "Ruby",
   "item.test_mod.tomato": "Tomato",
-  "itemgroup.ruby": "Ruby Tutorial Group"
+  "itemgroup.ruby": "Ruby Tutorial Group",
+  "tooltip.test_mod.metal_detector.tooltip": "Finds valuables underground"
 }
