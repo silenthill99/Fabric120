@@ -5,6 +5,7 @@
   "block.test_mod.raw_ruby_block": "Raw ruby block",
   "block.test_mod.ruby_block": "Ruby block",
   "block.test_mod.ruby_ore": "Ruby ore",
+  "item.test_mod.metal_detector": "Metal detector",
   "item.test_mod.raw_ruby": "Raw ruby",
   "item.test_mod.ruby": "Ruby",
   "itemgroup.ruby": "Ruby Tutorial Group"

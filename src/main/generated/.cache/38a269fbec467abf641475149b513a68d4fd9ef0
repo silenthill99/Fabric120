@@ -1,4 +1,4 @@
-// 1.20.1	2024-08-13T15:44:15.1215684	Kaupen Fabric 1.20/Model Definitions
+// 1.20.1	2024-08-13T18:29:45.2241721	Kaupen Fabric 1.20/Model Definitions
 76930426dfd213428b94234ac7fbd3e3d04c7bb0 assets\test_mod\blockstates\ruby_block.json
 abe371d2c2f8722937795f21fa545e00a64c4282 assets\test_mod\models\item\raw_ruby.json
 81dce1bc8a54728fcaf29592252a69831a4d9804 assets\test_mod\models\block\nether_ruby_ore.json
@@ -12,6 +12,7 @@ f314ea58cf900d4f2d9c58c4a503f39829a2debe assets\test_mod\models\item\end_stone_r
 9f6849eb34424fe2ce87f1a162a777d0a2af8fe5 assets\test_mod\models\block\raw_ruby_block.json
 8be25e9bda5dff7c15521486c6d3648f3b04377a assets\test_mod\models\item\ruby_ore.json
 6d523f676195eb5e52d168fa11937881d49d0445 assets\test_mod\blockstates\ruby_ore.json
+e6e9161800e117c2b7fb1424d498a63ea1182c35 assets\test_mod\models\item\metal_detector.json
 c3843879031062b0e1b343063f96bfffae0594ca assets\test_mod\models\item\nether_ruby_ore.json
 e664c3e997f21afad862122a6f7c2a726d587b00 assets\test_mod\blockstates\deepslate_ruby_ore.json
 fdd02b18b47c4c0a06bf73a253d54955e67174b4 assets\test_mod\models\block\ruby_block.json

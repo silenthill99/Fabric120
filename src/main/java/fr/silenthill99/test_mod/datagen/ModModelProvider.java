@@ -27,5 +27,6 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.RUBY, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_RUBY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.METAL_DETECTOR, Models.GENERATED);
     }
 }
