@@ -1,7 +1,10 @@
-// 1.20.1	2024-08-15T10:20:00.0718851	Kaupen Fabric 1.20/Tags for minecraft:block
+// 1.20.1	2024-08-15T15:20:06.5039287	Kaupen Fabric 1.20/Tags for minecraft:block
+807045928c0175bebcc30928383d46f684933023 data\minecraft\tags\blocks\fences.json
 e5043eeeac0e078061a449b9bd42b818f6e80ddf data\minecraft\tags\blocks\mineable\pickaxe.json
 8502e3a13bdae95b5d9545fa685e67c9135c1f16 data\minecraft\tags\blocks\needs_diamond_tool.json
 503d36c463813b981eb744dbbee50ed637059081 data\fabric\tags\blocks\needs_tool_level_4.json
 bb85d595651e33b1e88ea77946c9155aee94f27e data\minecraft\tags\blocks\needs_iron_tool.json
 3c04ff5717ba40d5ba56618ddcbe2c36b03c38d8 data\minecraft\tags\blocks\needs_stone_tool.json
+569cb0e3e4cfe332d100dc355b5a600c7e28db79 data\minecraft\tags\blocks\fence_gates.json
 c871b2f5325dcb086f5b6ba1e1f38f03669bfdc2 data\test_mod\tags\blocks\metal_detector_detectable_blocks.json
+e42945754c77d68c911e4785b9b34f410305c8bf data\minecraft\tags\blocks\walls.json
