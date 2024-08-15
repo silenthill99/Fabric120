@@ -33,7 +33,7 @@ public class ModBlocks {
 
     public static final Block RUBY_STAIRS = registerBlock("ruby_stairs",
             new StairsBlock(ModBlocks.RUBY_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block RUBY_SLAB = registerBlock("ruby_slab",new SlabBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block RUBY_SLAB = registerBlock("ruby_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
     public static final Block RUBY_BUTTON = registerBlock("ruby_button",
             new ButtonBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK), BlockSetType.IRON, 10, true));
@@ -49,7 +49,7 @@ public class ModBlocks {
             new WallBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
     public static final Block RUBY_DOOR = registerBlock("ruby_door",
-            new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_DOOR).nonOpaque(), BlockSetType.IRON));
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_DOOR), BlockSetType.IRON));
     public static final Block RUBY_TRAPDOOR = registerBlock("ruby_trapdoor",
             new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_TRAPDOOR), BlockSetType.IRON));
 
