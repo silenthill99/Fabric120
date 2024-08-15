@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
           "fr.silenthill99.test_mod.MainDataGenerator"
+		],
+		"client": [
+			"fr.silenthill99.test_mod.MainClient"
 		]
 	},
 	"mixins": [
