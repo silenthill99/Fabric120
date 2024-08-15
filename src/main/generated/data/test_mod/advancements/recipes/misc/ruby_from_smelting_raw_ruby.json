@@ -1,13 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_the_recipe": {
-      "conditions": {
-        "recipe": "minecraft:ruby_from_smelting_raw_ruby"
-      },
-      "trigger": "minecraft:recipe_unlocked"
-    },
-    "unlock": {
+    "has_raw_ruby": {
       "conditions": {
         "items": [
           {
@@ -18,11 +12,17 @@
         ]
       },
       "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:ruby_from_smelting_raw_ruby"
+      },
+      "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "unlock",
+      "has_raw_ruby",
       "has_the_recipe"
     ]
   ],

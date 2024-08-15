@@ -5,7 +5,7 @@
   "experience": 0.7,
   "group": "ruby",
   "ingredient": {
-    "item": "test_mod:raw_ruby"
+    "item": "test_mod:end_stone_ruby_ore"
   },
   "result": "test_mod:ruby"
 }

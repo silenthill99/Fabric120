@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_ruby": {
+    "has_ruby_ore": {
       "conditions": {
         "items": [
           {
             "items": [
-              "test_mod:ruby"
+              "test_mod:ruby_ore"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:ruby_block_from_ruby"
+        "recipe": "minecraft:ruby_from_blasting_ruby_ore"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_ruby",
+      "has_ruby_ore",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:ruby_block_from_ruby"
+      "minecraft:ruby_from_blasting_ruby_ore"
     ]
   },
   "sends_telemetry_event": false

@@ -1,11 +1,12 @@
 {
   "replace": false,
   "values": [
-    "test_mod:ruby_block",
     "test_mod:raw_ruby_block",
+    "test_mod:ruby_block",
     "test_mod:ruby_ore",
     "test_mod:deepslate_ruby_ore",
     "test_mod:nether_ruby_ore",
-    "test_mod:end_stone_ruby_ore"
+    "test_mod:end_stone_ruby_ore",
+    "test_mod:sound_block"
   ]
 }

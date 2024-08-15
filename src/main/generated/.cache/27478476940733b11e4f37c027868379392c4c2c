@@ -1,7 +1,8 @@
-// 1.20.1	2024-08-14T23:17:18.8556768	Kaupen Fabric 1.20/Block Loot Tables
-d112da44893eebcb403fa95944451ad4c976f842 data\test_mod\loot_tables\blocks\ruby_ore.json
-c8f8bf055b6c6f781638b5eb62e1d41974d4bab5 data\test_mod\loot_tables\blocks\nether_ruby_ore.json
-df13b98ce446c6082a8bcaa24e643cc32d6747d1 data\test_mod\loot_tables\blocks\end_stone_ruby_ore.json
+// 1.20.1	2024-08-15T10:20:00.073149	Kaupen Fabric 1.20/Block Loot Tables
+064996deefc33ec52ba93c2cf84ed64c917ba755 data\test_mod\loot_tables\blocks\ruby_ore.json
+cfffcf4384d47e807e48849585c8f3abf20bef2e data\test_mod\loot_tables\blocks\nether_ruby_ore.json
+8f72fdb5dba116ec4b7cad3f62dc01988a68572b data\test_mod\loot_tables\blocks\end_stone_ruby_ore.json
 e4a9293cf722b263e51271dd6ae3a8cfa269b7e5 data\test_mod\loot_tables\blocks\ruby_block.json
 c66e7f03ed4807e53001a943821ee5ca50b97b5c data\test_mod\loot_tables\blocks\raw_ruby_block.json
-bcb4698db5718f43726cabab1483755dc9917ad0 data\test_mod\loot_tables\blocks\deepslate_ruby_ore.json
+40ef0aa6f5f212b94c299837211d94fd94df3848 data\test_mod\loot_tables\blocks\deepslate_ruby_ore.json
+b7b45da85171d115d3c6a3b0994df6968070771a data\test_mod\loot_tables\blocks\sound_block.json
