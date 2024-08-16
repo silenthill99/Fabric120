@@ -2,6 +2,7 @@ package fr.silenthill99.test_mod.init;
 
 import fr.silenthill99.test_mod.Main;
 import fr.silenthill99.test_mod.custom.item.MetalDetectorItem;
+import fr.silenthill99.test_mod.utils.ModArmorMaterials;
 import fr.silenthill99.test_mod.utils.ModToolMaterial;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
@@ -34,6 +35,15 @@ public class ModItems {
             new SwordItem(ModToolMaterial.RUBY, 5, 3, new FabricItemSettings()));
     public static final Item RUBY_HOE = registerItem("ruby_hoe",
             new HoeItem(ModToolMaterial.RUBY, 0, 0, new FabricItemSettings()));
+
+    public static final Item RUBY_HELMET = registerItem("ruby_helmet",
+            new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item RUBY_CHESTPLATE = registerItem("ruby_chestplate",
+            new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item RUBY_LEGGINGS = registerItem("ruby_leggings",
+            new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item RUBY_BOOTS = registerItem("ruby_boots",
+            new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     private static void addItemsToIngredientTabItemGroups(FabricItemGroupEntries entries) {
         entries.add(RUBY);

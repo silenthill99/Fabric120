@@ -1,4 +1,4 @@
-// 1.20.1	2024-08-16T15:57:06.8402258	Kaupen Fabric 1.20/Recipes
+// 1.20.1	2024-08-16T23:47:32.4603902	Kaupen Fabric 1.20/Recipes
 f2a06206d302f6a4a9226f8109631e9c7bddfd63 data\test_mod\recipes\ruby_from_blasting_nether_ruby_ore.json
 b9576fbb9062dacfe729629d3c6c22953926185b data\test_mod\advancements\recipes\misc\ruby_from_smelting_deepslate_ruby_ore.json
 cef603f5b32b8dcda833a7cb67d87efee5ab2261 data\test_mod\recipes\ruby_from_blasting_ruby_ore.json
@@ -14,8 +14,8 @@ f888b33ae64fcc85a9d66a15596fc611fa84e0c4 data\test_mod\advancements\recipes\misc
 85b6d640238a6455e768fe7e6f6f0b8414d7eec9 data\test_mod\recipes\ruby_from_smelting_ruby_ore.json
 c200679540641a8509a6b0d1204eb4b2075c99c7 data\test_mod\advancements\recipes\misc\ruby_from_blasting_end_stone_ruby_ore.json
 c6e90cb322920d9f507c0b3c2f129f98fac2300a data\test_mod\advancements\recipes\misc\ruby_from_blasting_deepslate_ruby_ore.json
-7ca0c59e7239cf97dc2bffbda5253bad9e5ad990 data\test_mod\advancements\recipes\misc\ruby_from_smelting_raw_ruby.json
 fb10169414df89b948cf72b7b3d5a7a694508df5 data\test_mod\recipes\ruby_from_smelting_nether_ruby_ore.json
+7ca0c59e7239cf97dc2bffbda5253bad9e5ad990 data\test_mod\advancements\recipes\misc\ruby_from_smelting_raw_ruby.json
 c6a5101935172ca7274112efa9bda490f365d816 data\test_mod\advancements\recipes\misc\raw_ruby.json
 7d0e1ee0114b12ec665953df4bc4ae9446925cd3 data\test_mod\advancements\recipes\building_blocks\ruby.json
 7712171c83554200d93fc7c739e12b1df9e28880 data\test_mod\recipes\ruby_pickaxe.json
