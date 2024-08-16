@@ -4,10 +4,13 @@ import fr.silenthill99.test_mod.init.ModBlocks;
 import fr.silenthill99.test_mod.init.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
+import net.minecraft.advancement.criterion.InventoryChangedCriterion;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
+import net.minecraft.item.PickaxeItem;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
 
@@ -44,6 +47,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.STONE), conditionsFromItem(Items.STONE))
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.RAW_RUBY)));
+        createPickaxeRecipe(exporter, (PickaxeItem) ModItems.RUBY_PICKAXE, ModItems.RUBY);
 
+    }
+
+    private void createPickaxeRecipe(Consumer<RecipeJsonProvider> exporter, PickaxeItem result, Item item) {
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, result)
+                .pattern("000")
+                .pattern(" 1 ")
+                .pattern(" 1 ")
+                .input('0', item)
+                .input('1', Items.STICK)
+                .criterion("unlock", InventoryChangedCriterion.Conditions.items(item, Items.STICK))
+                .offerTo(exporter);
     }
 }

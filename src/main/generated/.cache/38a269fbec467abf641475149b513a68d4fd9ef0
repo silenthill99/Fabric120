@@ -1,12 +1,14 @@
-// 1.20.1	2024-08-16T14:12:54.8571838	Kaupen Fabric 1.20/Model Definitions
+// 1.20.1	2024-08-16T15:57:06.8463587	Kaupen Fabric 1.20/Model Definitions
 e5c9ab09dea62606415d457aa4c9d3033f5c1130 assets\test_mod\models\item\ruby_staff.json
 e85c4f54991cc9f36557a9db08439f8bfab5f400 assets\test_mod\models\block\ruby_door_top_right.json
 74c68162b62403f136f952166c3f79a27476e448 assets\test_mod\models\block\ruby_wall_side_tall.json
 a84bec3683b04f571fb3417e8d487d075f2678e1 assets\test_mod\blockstates\raw_ruby_block.json
+f48956f2eb5c10c4a45cf6f5c2bb7e1f42a850fe assets\test_mod\models\item\ruby_sword.json
 071e395e43cc06a445e8c4556b8abdb788d41c61 assets\test_mod\blockstates\end_stone_ruby_ore.json
 dd12ef27f79962bdebb67a69c6e5c323159cfb5a assets\test_mod\models\block\ruby_fence_gate.json
 232f7e0d0ebe8feb4b7bbdc57f2ed3e0a25c24ac assets\test_mod\models\item\deepslate_ruby_ore.json
 7ddf8c087b96ffad8871fc41571652019605a9af assets\test_mod\models\item\sound_block.json
+eb39da6be31a1b128828caa7c735c86980767fc8 assets\test_mod\models\item\ruby_shovel.json
 f314ea58cf900d4f2d9c58c4a503f39829a2debe assets\test_mod\models\item\end_stone_ruby_ore.json
 6676566518221b52e80b2ba46b76ac2903646075 assets\test_mod\models\block\ruby_door_top_left_open.json
 e6e9161800e117c2b7fb1424d498a63ea1182c35 assets\test_mod\models\item\metal_detector.json
@@ -32,9 +34,11 @@ fdd02b18b47c4c0a06bf73a253d54955e67174b4 assets\test_mod\models\block\ruby_block
 eef009802f6c59ebbc996f593e1002b6405ac5b5 assets\test_mod\models\block\deepslate_ruby_ore.json
 37bad5c2b59eb0113bd9823f72d821e02e453f5f assets\test_mod\models\block\ruby_button.json
 fd2864973eb84628110f9cd5253b0b4dac1b4078 assets\test_mod\models\block\ruby_door_bottom_left.json
+2d88c4c88a4c146583c84d67e670cfb887f657c6 assets\test_mod\models\item\ruby_pickaxe.json
+18bfc6ab5759e2b12081b5a253d009b0154cd763 assets\test_mod\models\item\ruby_hoe.json
 00a5945fe1a9a48b24564fa183617a7360ef88f2 assets\test_mod\models\block\ruby_fence_inventory.json
-4455ec9567c9f4208ea831895efa0e76da01b0f8 assets\test_mod\blockstates\ruby_slab.json
 76930426dfd213428b94234ac7fbd3e3d04c7bb0 assets\test_mod\blockstates\ruby_block.json
+4455ec9567c9f4208ea831895efa0e76da01b0f8 assets\test_mod\blockstates\ruby_slab.json
 d089fe2ea6ef47385e98c4a9ac73e9b13554742c assets\test_mod\models\block\ruby_pressure_plate.json
 d8ea75f2c6719957bad7a729e39c855f328acbcc assets\test_mod\models\item\ruby_stairs.json
 78f3ed9b4dcfb470e5bb2d74197243831688a3fd assets\test_mod\blockstates\ruby_door.json
@@ -56,6 +60,7 @@ c3843879031062b0e1b343063f96bfffae0594ca assets\test_mod\models\item\nether_ruby
 95868df103adc23d994f29f1c106454a33289845 assets\test_mod\models\block\ruby_stairs_inner.json
 78dcfde67b3f60fdb3506a455ba559005f7506ea assets\test_mod\models\block\ruby_trapdoor_open.json
 50f1d1b72627d30373e363d0f71b9e262422ce36 assets\test_mod\blockstates\ruby_trapdoor.json
+38f18ef245644ec725760c08fd56fa9bd49bfdcb assets\test_mod\models\item\ruby_axe.json
 79e95e3b19dd448bd35340b35f4401502d82ba23 assets\test_mod\models\item\ruby_block.json
 ae7b371ed681b725a5251450eab877dfba7f4f4d assets\test_mod\models\block\ruby_trapdoor_top.json
 ab30ef9f834177523bd158c4e9947e9fe87d2668 assets\test_mod\models\block\ruby_slab_top.json
@@ -72,7 +77,7 @@ ba4771d61a76c90844a079854cb4a7bee72aad15 assets\test_mod\blockstates\ruby_fence.
 e664c3e997f21afad862122a6f7c2a726d587b00 assets\test_mod\blockstates\deepslate_ruby_ore.json
 9eca37cd1915982fdafbff7975f5a6651c0b2ede assets\test_mod\blockstates\nether_ruby_ore.json
 3f3df32bea3bd548f17af517906437e1d71fedc4 assets\test_mod\blockstates\ruby_pressure_plate.json
-1e34baed78cfc489a8c1fb5c2680357127da902a assets\test_mod\blockstates\ruby_button.json
 6e490c840613dacf2a76e2c949841fab846781df assets\test_mod\models\block\ruby_fence_side.json
+1e34baed78cfc489a8c1fb5c2680357127da902a assets\test_mod\blockstates\ruby_button.json
 ce8211a490c64e588890056b60d8ed73f1c37fa7 assets\test_mod\models\block\ruby_door_bottom_right_open.json
 4b89fa8d612757fb2dcbe9b5a210c04ea7d539bf assets\test_mod\models\block\ruby_fence_gate_wall.json
