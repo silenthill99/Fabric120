@@ -43,5 +43,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.METAL_DETECTOR, Models.GENERATED);
         itemModelGenerator.register(ModItems.TOMATO, Models.GENERATED);
         itemModelGenerator.register(ModItems.COAL_BRIQUETTE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RUBY_STAFF, Models.GENERATED);
     }
 }

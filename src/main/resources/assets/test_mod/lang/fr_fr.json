@@ -19,6 +19,7 @@
   "item.test_mod.metal_detector": "Détecteur de métaux",
   "item.test_mod.raw_ruby": "Ruby brut",
   "item.test_mod.ruby": "Ruby",
+  "item.test_mod.ruby_staff": "Bâton de ruby",
   "item.test_mod.tomato": "Tomate",
   "itemgroup.ruby": "Ruby Tutorial Group",
   "tooltip.test_mod.metal_detector.tooltip": "Trouve des minerais de valeur sous terre"

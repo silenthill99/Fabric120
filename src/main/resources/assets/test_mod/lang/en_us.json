@@ -19,6 +19,7 @@
   "item.test_mod.metal_detector": "Metal detector",
   "item.test_mod.raw_ruby": "Raw ruby",
   "item.test_mod.ruby": "Ruby",
+  "item.test_mod.ruby_staff": "Ruby staff",
   "item.test_mod.tomato": "Tomato",
   "itemgroup.ruby": "Ruby Tutorial Group",
   "tooltip.test_mod.metal_detector.tooltip": "Finds valuables underground"
