@@ -3,6 +3,7 @@ package fr.silenthill99.test_mod;
 import fr.silenthill99.test_mod.init.ModBlocks;
 import fr.silenthill99.test_mod.init.ModItemGroups;
 import fr.silenthill99.test_mod.init.ModItems;
+import fr.silenthill99.test_mod.utils.ModLootTablesModifier;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.FuelRegistry;
@@ -18,6 +19,8 @@ public class Main implements ModInitializer {
 		ModItems.registerModItems();
 		ModItemGroups.registerModItemGroups();
 		ModBlocks.registerModBlocks();
+
+		ModLootTablesModifier.modifyLootTables();
 
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
 	}
