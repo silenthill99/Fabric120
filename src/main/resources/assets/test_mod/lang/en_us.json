@@ -30,6 +30,7 @@
   "item.test_mod.ruby_sword": "Ruby sword",
   "item.test_mod.ruby_staff": "Ruby staff",
   "item.test_mod.tomato": "Tomato",
+  "item.test_mod.tomato_seeds": "Tomato Seeds",
   "itemgroup.ruby": "Ruby Tutorial Group",
   "tooltip.test_mod.metal_detector.tooltip": "Finds valuables underground"
 }

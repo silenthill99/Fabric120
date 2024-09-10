@@ -1,5 +1,6 @@
 package fr.silenthill99.test_mod.datagen;
 
+import fr.silenthill99.test_mod.custom.block.TomatoCropBlock;
 import fr.silenthill99.test_mod.init.ModBlocks;
 import fr.silenthill99.test_mod.init.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -35,6 +36,7 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerDoor(ModBlocks.RUBY_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.RUBY_TRAPDOOR);
+        blockStateModelGenerator.registerCrop(ModBlocks.TOMATO_CROPS_BLOCK, TomatoCropBlock.AGE, 0, 1, 2, 3, 4, 5);
     }
 
     @Override

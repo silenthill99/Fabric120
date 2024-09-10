@@ -46,6 +46,9 @@ public class ModItems {
     public static final Item RUBY_BOOTS = registerItem("ruby_boots",
             new ModArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
+    public static final Item TOMATO_SEEDS = registerItem("tomato_seeds",
+            new AliasedBlockItem(ModBlocks.TOMATO_CROPS_BLOCK, new Item.Settings()));
+
     private static void addItemsToIngredientTabItemGroups(FabricItemGroupEntries entries) {
         entries.add(RUBY);
         entries.add(RAW_RUBY);

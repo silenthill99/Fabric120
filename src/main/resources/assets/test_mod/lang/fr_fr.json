@@ -30,6 +30,7 @@
   "item.test_mod.ruby_sword": "Épée en uby",
   "item.test_mod.ruby_staff": "Bâton de ruby",
   "item.test_mod.tomato": "Tomate",
+  "item.test_mod.tomato_seeds": "Graines de tomate",
   "itemgroup.ruby": "Ruby Tutorial Group",
   "tooltip.test_mod.metal_detector.tooltip": "Trouve des minerais de valeur sous terre"
 }

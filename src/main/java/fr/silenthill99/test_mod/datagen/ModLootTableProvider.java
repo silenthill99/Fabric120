@@ -4,14 +4,18 @@ import fr.silenthill99.test_mod.init.ModBlocks;
 import fr.silenthill99.test_mod.init.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
+import net.minecraft.block.BeetrootsBlock;
 import net.minecraft.block.Block;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
 import net.minecraft.loot.LootTable;
+import net.minecraft.loot.condition.BlockStatePropertyLootCondition;
+import net.minecraft.loot.condition.LootCondition;
 import net.minecraft.loot.entry.ItemEntry;
 import net.minecraft.loot.function.ApplyBonusLootFunction;
 import net.minecraft.loot.function.SetCountLootFunction;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
+import net.minecraft.predicate.StatePredicate;
 
 public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
@@ -38,11 +42,18 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RUBY_WALL);
         addDrop(ModBlocks.RUBY_DOOR, this::doorDrops);
         addDrop(ModBlocks.RUBY_TRAPDOOR);
+        customCropDrops(ModBlocks.TOMATO_CROPS_BLOCK, ModItems.TOMATO, ModItems.TOMATO_SEEDS, 5);
     }
 
     public LootTable.Builder copperLikeOreDrops(Block drop, Item item) {
         return dropsWithSilkTouch(drop, this.applyExplosionDecay(drop, ItemEntry.builder(item)
                 .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(2.0F, 5.0F)))
                 .apply(ApplyBonusLootFunction.oreDrops(Enchantments.FORTUNE))));
+    }
+
+    private void customCropDrops(Block block, Item loot, Item seed, int age) {
+        LootCondition.Builder builder = BlockStatePropertyLootCondition.builder(block)
+                .properties(StatePredicate.Builder.create().exactMatch(BeetrootsBlock.AGE, age));
+        addDrop(block, cropDrops(block, loot, seed, builder));
     }
 }
