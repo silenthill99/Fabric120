@@ -48,6 +48,10 @@ public class ModItems {
 
     public static final Item TOMATO_SEEDS = registerItem("tomato_seeds",
             new AliasedBlockItem(ModBlocks.TOMATO_CROPS_BLOCK, new Item.Settings()));
+    public static final Item CORN_SEEDS = registerItem("corn_seeds",
+            new AliasedBlockItem(ModBlocks.CORN_CROPS_BLOCK, new Item.Settings()));
+    public static final Item CORN = registerItem("corn",
+            new Item(new Item.Settings()));
 
     private static void addItemsToIngredientTabItemGroups(FabricItemGroupEntries entries) {
         entries.add(RUBY);

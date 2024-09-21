@@ -1,6 +1,7 @@
 package fr.silenthill99.test_mod.init;
 
 import fr.silenthill99.test_mod.Main;
+import fr.silenthill99.test_mod.custom.block.CornCropBlock;
 import fr.silenthill99.test_mod.custom.block.SoundBlock;
 import fr.silenthill99.test_mod.custom.block.TomatoCropBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -56,6 +57,9 @@ public class ModBlocks {
 
     public static final Block TOMATO_CROPS_BLOCK = Registry.register(Registries.BLOCK, new Identifier(Main.MOD_ID, "tomato_crop"),
             new TomatoCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
+
+    public static final Block CORN_CROPS_BLOCK = Registry.register(Registries.BLOCK, new Identifier(Main.MOD_ID, "corn_crop"),
+            new CornCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
 
     private static Block registerBlock(String name, Block block) {
         Registry.register(Registries.ITEM, new Identifier(Main.MOD_ID, name), new BlockItem(block, new FabricItemSettings()));

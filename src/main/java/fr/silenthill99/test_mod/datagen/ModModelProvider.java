@@ -1,5 +1,6 @@
 package fr.silenthill99.test_mod.datagen;
 
+import fr.silenthill99.test_mod.custom.block.CornCropBlock;
 import fr.silenthill99.test_mod.custom.block.TomatoCropBlock;
 import fr.silenthill99.test_mod.init.ModBlocks;
 import fr.silenthill99.test_mod.init.ModItems;
@@ -37,6 +38,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerDoor(ModBlocks.RUBY_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.RUBY_TRAPDOOR);
         blockStateModelGenerator.registerCrop(ModBlocks.TOMATO_CROPS_BLOCK, TomatoCropBlock.AGE, 0, 1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerCrop(ModBlocks.CORN_CROPS_BLOCK, CornCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6, 7, 8);
     }
 
     @Override
@@ -58,5 +60,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RUBY_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.RUBY_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.RUBY_HOE, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.CORN, Models.GENERATED);
     }
 }

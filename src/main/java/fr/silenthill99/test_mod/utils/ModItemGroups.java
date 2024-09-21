@@ -1,6 +1,8 @@
-package fr.silenthill99.test_mod.init;
+package fr.silenthill99.test_mod.utils;
 
 import fr.silenthill99.test_mod.Main;
+import fr.silenthill99.test_mod.init.ModBlocks;
+import fr.silenthill99.test_mod.init.ModItems;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -60,6 +62,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RUBY_TRAPDOOR);
 
                         entries.add(ModItems.TOMATO_SEEDS);
+                        entries.add(ModItems.CORN);
+                        entries.add(ModItems.CORN_SEEDS);
 
                     }).build());
 

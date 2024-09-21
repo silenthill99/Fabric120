@@ -1,7 +1,7 @@
 package fr.silenthill99.test_mod;
 
 import fr.silenthill99.test_mod.init.ModBlocks;
-import fr.silenthill99.test_mod.init.ModItemGroups;
+import fr.silenthill99.test_mod.utils.ModItemGroups;
 import fr.silenthill99.test_mod.init.ModItems;
 import fr.silenthill99.test_mod.utils.ModLootTablesModifier;
 import net.fabricmc.api.ModInitializer;

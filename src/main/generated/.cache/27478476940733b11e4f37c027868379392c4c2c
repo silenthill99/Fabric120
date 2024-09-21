@@ -1,4 +1,4 @@
-// 1.20.1	2024-09-10T11:51:30.4725948	Kaupen Fabric 1.20/Block Loot Tables
+// 1.20.1	2024-09-11T13:31:35.2933573	Kaupen Fabric 1.20/Block Loot Tables
 e25295848cf8f2844cb6ba795913079d0b4d90aa data\test_mod\loot_tables\blocks\ruby_trapdoor.json
 064996deefc33ec52ba93c2cf84ed64c917ba755 data\test_mod\loot_tables\blocks\ruby_ore.json
 dba2697baa001d4e6112bcf6ca51c9422fc226bc data\test_mod\loot_tables\blocks\ruby_slab.json
@@ -7,8 +7,9 @@ dba2697baa001d4e6112bcf6ca51c9422fc226bc data\test_mod\loot_tables\blocks\ruby_s
 40ef0aa6f5f212b94c299837211d94fd94df3848 data\test_mod\loot_tables\blocks\deepslate_ruby_ore.json
 a861fcf8443c9d1fdc00e92d83856395ccbac41f data\test_mod\loot_tables\blocks\ruby_door.json
 15ce4158a48fb603dc0e8d46becb0e3d53b07562 data\test_mod\loot_tables\blocks\tomato_crop.json
-84d3fc5ea941fa2743634e3d2d1f37309bc90e52 data\test_mod\loot_tables\blocks\ruby_wall.json
+5665daa6f5863b192ec795559880db6e1ce54182 data\test_mod\loot_tables\blocks\corn_crop.json
 e4a9293cf722b263e51271dd6ae3a8cfa269b7e5 data\test_mod\loot_tables\blocks\ruby_block.json
+84d3fc5ea941fa2743634e3d2d1f37309bc90e52 data\test_mod\loot_tables\blocks\ruby_wall.json
 44cf40ab7d294a8d5ccc55f85d50bcad799160a0 data\test_mod\loot_tables\blocks\ruby_fence_gate.json
 cfffcf4384d47e807e48849585c8f3abf20bef2e data\test_mod\loot_tables\blocks\nether_ruby_ore.json
 b7b45da85171d115d3c6a3b0994df6968070771a data\test_mod\loot_tables\blocks\sound_block.json
